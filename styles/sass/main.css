@@ -241,13 +241,15 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 10px;
+  margin-right: 50px;
 }
 
 .main .main-content .main-content-videos iframe {
-  margin-left: 8px;
   padding: 3px;
 }
 /*# sourceMappingURL=main.css.map */

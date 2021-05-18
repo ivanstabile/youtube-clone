@@ -183,10 +183,10 @@ a{
         }
         .main-content-videos{
             display: flex;
+            justify-content: space-between;
             flex-wrap: wrap;
-            margin: 10px;
+            margin-right: 50px;
             iframe{
-                margin-left: 8px;
                 padding: 3px;
             }
         }
