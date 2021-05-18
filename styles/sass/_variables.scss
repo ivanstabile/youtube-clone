@@ -1,0 +1,9 @@
+$color-primario: #1d1d1d;
+$color-secundario: #FF0000;
+$color-terciario: #FFFFFF;
+$color-active:#252525;
+$color-aside: #383838; 
+
+@mixin margen{
+    margin: 0 20px;
+}
