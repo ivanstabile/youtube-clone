@@ -241,15 +241,50 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-right: 50px;
 }
 
-.main .main-content .main-content-videos iframe {
+.main .main-content .main-content-videos .video {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.main .main-content .main-content-videos .video iframe {
   padding: 3px;
+}
+
+.main .main-content .main-content-videos .video .video-cap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .main-content .main-content-videos .video .video-cap img {
+  width: 38px;
+  height: 38px;
+  border-radius: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.main .main-content .main-content-videos .video .video-cap .video-title h5 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.main .main-content .main-content-videos .video .video-cap .video-title a {
+  display: inline-block;
+}
+
+.main .main-content .main-content-videos .video .video-cap .video-title a, .main .main-content .main-content-videos .video .video-cap .video-title p {
+  font-size: 14px;
+  color: gray;
 }
 /*# sourceMappingURL=main.css.map */
