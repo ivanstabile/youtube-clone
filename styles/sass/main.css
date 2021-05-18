@@ -255,7 +255,7 @@ a {
 }
 
 .main .main-content .main-content-videos .video iframe {
-  padding: 3px;
+  margin-right: 5px;
 }
 
 .main .main-content .main-content-videos .video .video-cap {
@@ -274,9 +274,10 @@ a {
   vertical-align: middle;
 }
 
-.main .main-content .main-content-videos .video .video-cap .video-title h5 {
+.main .main-content .main-content-videos .video .video-cap .video-title a h5 {
   font-size: 17px;
   font-weight: 500;
+  color: #FFFFFF;
 }
 
 .main .main-content .main-content-videos .video .video-cap .video-title a {

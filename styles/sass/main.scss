@@ -190,7 +190,7 @@ a{
                 color: $color-terciario;
                 margin-bottom: 20px;
                 iframe{
-                    padding: 3px;
+                    margin-right: 5px;
                 }
                 .video-cap{
                     display: flex;
@@ -205,9 +205,12 @@ a{
                         }
                     }
                     .video-title{
-                        h5{
-                           font-size: 17px;
-                           font-weight: 500;
+                        a{
+                            h5{
+                                font-size: 17px;
+                                font-weight: 500;
+                                color: $color-terciario;
+                             }
                         }
                         a{
                             display: inline-block;
